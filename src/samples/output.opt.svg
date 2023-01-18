@@ -1,0 +1,203 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="svg752" width="314.03" height="155.26"
+    version="1.1">
+    <defs id="defs756">
+        <clipPath id="clipEmfPath1" clipPathUnits="userSpaceOnUse">
+            <path id="path1010"
+                d="M60.67 45.33h-1l.33-1 1 .34-.33.66m-10.34-3l-1-1.66 3 1-2 .66m11.34-3.66l1-2 1 1.33-2 .67M42 36l-4-1.33L39.33 32 42 36m19.67-6.33L59 26l3.67.67-1 3m-9.67-8L60 33l-2.67 7-.66.33-9.67-3-8-11.66L33.33 36l11 3.33L49 45.67l7.33-2.34-.66 3.67 7 1.67 3-5L61 42l7.33-2.33L64 33l3.33-8L52 21.67" />
+        </clipPath>
+        <clipPath id="clipEmfPath2" clipPathUnits="userSpaceOnUse">
+            <path id="path1013"
+                d="M41.33 17.67l.34 1.66V21l7.66 11-2 .67L49 35l2-.67L52.33 36l3-1-1-1.67 1.67-.66-1.67-2.34-2 .67L45 20h-.33L43 18.67l-1.67-1" />
+        </clipPath>
+        <clipPath id="clipEmfPath1-1" clipPathUnits="userSpaceOnUse">
+            <path id="path1010-0"
+                d="M60.67 45.33h-1l.33-1 1 .34-.33.66m-10.34-3l-1-1.66 3 1-2 .66m11.34-3.66l1-2 1 1.33-2 .67M42 36l-4-1.33L39.33 32 42 36m19.67-6.33L59 26l3.67.67-1 3m-9.67-8L60 33l-2.67 7-.66.33-9.67-3-8-11.66L33.33 36l11 3.33L49 45.67l7.33-2.34-.66 3.67 7 1.67 3-5L61 42l7.33-2.33L64 33l3.33-8L52 21.67" />
+        </clipPath>
+        <clipPath id="clipEmfPath2-9" clipPathUnits="userSpaceOnUse">
+            <path id="path1013-4"
+                d="M41.33 17.67l.34 1.66V21l7.66 11-2 .67L49 35l2-.67L52.33 36l3-1-1-1.67 1.67-.66-1.67-2.34-2 .67L45 20h-.33L43 18.67l-1.67-1" />
+        </clipPath>
+        <style id="style5556">
+            <![CDATA[
+                .focus-background {
+                    fill: #2098ae;
+                    paint-order: stroke markers fill;
+                    stroke: #ffff53;
+                    stroke-dashoffset: 85;
+                    stroke-linejoin: round;
+                    stroke-opacity: 1;
+                    stroke-width: 5
+                }
+                
+                .focus-name {
+                    font-size: 24px
+                }
+                
+                .dice-text {
+                    font-size: 16px
+                }
+            ]]>
+        </style>
+    </defs>
+    <g id="skills" transform="translate(4.15 66.42)">
+        <g id="skill_1">
+            <g id="skill-focus-1">
+                <rect id="rect862" width="282.64" height="40.91" x="2.48" y="-18.1"
+                    class="focus-background" />
+                <g id="focus-1-pips" transform="matrix(1 0 0 -1 -24 157.14)">
+                    <g id="f1-pip4" style="fill:#ffff00;stroke:#000000;stroke-opacity:1">
+                        <rect id="rect689" width="24.72" height="24.72" x="85.47" y="151.71"
+                            class="pip" transform="rotate(-45 97.83 164.07)"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                        <path id="path691"
+                            d="M97.83 147.3l16.77 16.77-16.77 16.78-16.77-16.78 16.77-16.77m0-1.41l-18.19 18.18 18.19 18.19 18.19-18.19z"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                    </g>
+                    <rect id="f1-pip4-checked" width="18.55" height="18.55" x="88.55" y="154.8"
+                        class="pip-check" transform="rotate(-135 97.83 164.07)" />
+                    <g id="f1-pip3" style="fill:#ffff00;stroke:#000000;stroke-opacity:1">
+                        <rect id="rect695" width="24.72" height="24.72" x="65.5" y="132.79"
+                            class="pip" transform="rotate(-45 77.86 145.15)"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                        <path id="path697"
+                            d="M77.86 128.38l16.78 16.77-16.78 16.77-16.77-16.77 16.77-16.77m0-1.42l-18.18 18.2 18.18 18.18 18.2-18.19z"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                    </g>
+                    <rect id="f1-pip3-checked" width="18.55" height="18.55" x="68.59" y="135.88"
+                        class="pip-check" transform="rotate(-135 77.86 145.15)" />
+                    <g id="f1-pip2" style="fill:#ffff00;stroke:#000000;stroke-opacity:1">
+                        <rect id="rect701" width="24.72" height="24.72" x="45.62" y="152.06"
+                            class="pip" transform="rotate(-45 57.98 164.42)"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                        <path id="path703"
+                            d="M57.98 147.65l16.78 16.77-16.78 16.78-16.77-16.78 16.77-16.77m0-1.41L39.8 164.42l18.18 18.2 18.2-18.2z"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                    </g>
+                    <rect id="f1-pip2-checked" width="18.55" height="18.55" x="48.71" y="155.15"
+                        class="pip-check" transform="rotate(-135 57.98 164.42)" />
+                    <g id="f1-pip1" style="fill:#ffff00;stroke:#000000;stroke-opacity:1">
+                        <rect id="rect707" width="24.72" height="24.72" x="25.68" y="132.79"
+                            class="pip" transform="rotate(-45 38.04 145.15)"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                        <path id="path709"
+                            d="M38.04 128.38l16.77 16.77-16.77 16.77-16.78-16.77 16.78-16.77m0-1.42l-18.19 18.2 18.19 18.18 18.18-18.19z"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                    </g>
+                    <rect id="f1-pip1-checked" width="18.55" height="18.55" x="28.76" y="135.88"
+                        class="pip-check" transform="rotate(-135 38.04 145.15)" />
+                </g>
+                <g id="g687" transform="translate(144 16.7)">
+                    <text id="Acrobatics" x="-46.98" y="-12.86" class="skill-focus-name focus-name">
+                        <tspan id="tspan681" x="-46.98" y="-12.86" style="font-size:24px">Acrobatics</tspan>
+                    </text>
+                    <text id="3d10&gt;9" x="-47.81" y="2.15" class="skill-focus-notation dice-text">
+                        <tspan id="tspan684" x="-47.81" y="2.15" style="font-size:16px">3d10&gt;9</tspan>
+                    </text>
+                </g>
+                <g id="focus-1-dice" transform="matrix(-1 0 0 1 559.83 -67.8)">
+                    <path
+                        style="fill:#806600;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.577399"
+                        id="path1019-7"
+                        d="M288.27 96.17h-.2L256.7 81.93c-.2 0-.2-.2-.2-.2l-3.46-6.16c-.19-.19-.19-.38 0-.57l16.75-30.6c0-.2.2-.2.38-.2h.2l31.37 13.67s0 .19.2.19l4.03 6.16c.2.2.2.38 0 .58l-17.32 31.18c-.2.19-.2.19-.38.19z" />
+                    <path
+                        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.577399"
+                        id="path1021-4"
+                        d="M270.17 44.97l31.18 13.67 3.85 5.96-17.13 30.8-30.98-14.24-3.28-5.97 16.36-30.22m0-1.54c-.57 0-.96.2-1.15.58l-16.75 30.6c-.19.39-.19.96 0 1.35l3.47 6.16.58.58 31.37 14.24h.58c.38 0 .77-.2.96-.58l17.51-31.18c.2-.38.2-.96-.19-1.35l-4.04-6.16c-.2-.19-.39-.38-.58-.38l-31.37-13.86h-.39z" />
+                    <path
+                        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.577399"
+                        id="path1023-1"
+                        d="M250.73 75.96l3.66 6.74c0 .19.2.38.58.57l33.49 15.79c.58.38 1.35.19 1.73-.39l19.05-33.49c.2-.38.2-.96 0-1.35l-4.42-6.73c0-.2-.2-.39-.39-.39l-33.68-15.2c-.58-.39-1.35-.2-1.54.38L250.73 74.8c-.38.39-.38.77 0 1.16m36-3.08l1.54 23.29-31.38-14.82 10.01-11.93 19.83 3.46m19.82-8.28l-17.13 30.03-1.35-22.14 12.51-10.77 5.97 2.88m-3.66-5.77l2.31 3.66-4.42-2.12-16.36-9.82 18.47 8.28m-32.33-14.24l.2-.2 3.84 1.54 24.64 15.2-11.94 10.4-20.01-3.27 3.27-23.67m-1.73 3.27l-2.9 20.6-9.8 11.93-2.9-5 15.6-27.53z" />
+                    <image id="image1025-7" width="38" height="30" x="32" y="19.67"
+                        clip-path="url(#clipEmfPath1-1)" preserveAspectRatio="none"
+                        transform="translate(250.35 41.12) scale(.5774)"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAeCAIAAADPdvs5AAAE3ElEQVRIia2XbW/bNhDH/3cUZSmyZatJnAVIka3rA1q0L9rv/wG2NxuGbcCwAn1APaRO7ChRLFkSyeNeyEldr2vdbIeDIJG8+/HIO9ImAE9ePP/u0UP8rzJ59fr3n362xnSfvThqlnX3rgB8/+TxTpLcwm+dz2xdee+VDje60iw7vn9fxF3M5wCctYEO0mxkrVUAHj57qsNNm22EmOvpW3OV1/PTtiqdaT2IWBEzAKXU/uHh7sG4yC+auhaRerlMBgMF4MmL57fgAeAgYIZvSiZ4Z2xdNpd5NT9bFoWpW2ctK9VP0+MH93UY5rO5iLRNo9LR6PjB/dshAaio75uCxRKBACKAIM6aZbW8LIqzeZXnzaJMR8N7jx9XZVkWV6qfDo7ufbfuRZyzbauCYFtqPHDLC4JnAgD6uNdZsU1TXy2ifvLto0e7B2O+Mx5vuFjMZudvXnnntkSSCvVwTAwoKIUg1OnRvcHBYdRPmNHNg5VKsgzA7njMG4kjzlXnc/KunE62RAJQyR7HCTHAIG9cVfRGe0EYMoEZADpeJ5xmo3Xji5MTeMcEWxa2LLan6uwYSnVUWczMVW4WuWIwgQn9vd0PyPWKtG1bX+Td1JhhZhNv222ZpPToCAwigGHmEyYQgQjxMA3W1pLjNeT5uwldjyMCwZn8K5aXeynHKRigVXCd7qytKgC+eWsWZVuVNzwmgODb0pWz7ak6PaJAd6XS+VGhjgbpp5GX0ykBnYZJSlh92PLU23pbJqlgeBdryGiYbQxZIcs8b8qyqyliFR8c6ey6eLwzi3fbB0pKY61ATVV+GllMp9cWUKF2y1KPDkhHq0Zbu+UU24lbzm+ABNhlWZ1/tDUBgKvZzLarWwYetq6r92+1Vhzq6za4+pTDIakIXxK3zFc2qwfKs1O909dR9CHKJMv2vj1OsoxZrRge3jnfrm2hh63ewn/hSHJ1DnHrPAAiLp982Br18NlTYta9XjxMB/v7vcGQmAEhscyrLFg94bwrvLdEIP70ZecWJ94aCCAIskOx1horAttaD0T9PrqFXRcdRTo6BCC2laoQU/qmAMETSCC2IZlJew4OWO2Q6nPQB12vja2lLeHhPeDRXsxsY7xHp8X0dCcd6jj61+uCg5DTPWAP4twyt+WJBwjwEJAnEXEt/IWFJ+6xzjjou2rWxQcP8XDWiEenHghCXZeLzyHX4Eole9KWYgoPkAfIe7rZKXhb2+ZkBRN4AQTSqQcHOhkNd0aZjlfps+2lqIdH7fyld8YzQAiSQ29KaQsPwK8iu+E5gYcKR1l/kAXRZpJviwSrIL1r5q/gAYItTj50+U2eEzjnTHHplWatWal1T+rhs6dbQikIvRNpKvLXmGsYVARPcOJukAJrZVksLk/PvJNoMPj6KLvR6VjqhTereuU4VXHKvYSCcPnuD+fgBCLgKGkXZQcGcLOLt0ESK33nrsmnKknVTkrXR4fY1rSmyxcnkDVeEOrk48vr65AAOIx6B8cbjbYqrVulqAich8iq687R3Y3Bajr56+z9+0VRGGOUUrf7Da16cZhmqhdTEDon1tiuvZckw28O1kdOXr2mf9rvjvfjJImTZPdgvJMk8df/dxDnzLKuy0V33Ny0//nrby9/+512x/vz07PPu/jvkwDwyw8/Tl6/AfA3rd6OYiaFwZcAAAAASUVORK5CYII=" />
+                    <image id="image1027-8" width="17" height="21" x="40" y="16.33"
+                        clip-path="url(#clipEmfPath2-9)" preserveAspectRatio="none"
+                        transform="translate(250.35 41.12) scale(.5774)"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVCAIAAAAvnpK7AAACMElEQVQ4jY2STW8TMRCG3xnb+9FNNlmapJSkFBDiUODOlTM/APGP4ciVcEGN2qZNv0KcbHZtD4eEJkUIOrJkeR6/88qeoQ+fPuJhsbD26+cvl+cX6tXbN8uZBcBK/Vtjomjw4nleFAygtLPx8PvPyeQhbo8HfV45BO9vTk7Pvg19Xf1XxgCiJAVABHKlPRs9SBM3MpMkRiHS4Nq62/Efl8rrSXk9qed2ddSrbffpwfTH0GhoAz8/V1mLdHKnMTsNOxqKQAScZLzOJkljb19rkAY03Px420fFSbrb0wpaAZXlOxC3O5xmYJACUIfqYltm2ns6TVYyvgceDaAUGMQaMhdZbtOoewijWIHF+7ssqUg39kG0XmEKhG1qWj1iqCedPGq2N/+oU3ELkYoIEhxCTSrb0GhHnFWDbq6TlKN4A0zTl5cQL8GLmxPHpDZUJTkzo56MxG21n5RO+1I7cbU4V09HCH6bqmeDrmIRX6qs2MrH4kIo5wiAk7CcOzu14xOdNllrZgIIUllv782oSnfFK6kgFeqZXdxOq8pfjY4BaAJAAMHZc44bq/YvbybV5SkIEASB83ABzgG+XkynbIreurL4erZuf9Qslk6VFRYVygrLGlUNNqb/+ijNczbtPTK/R8uVfjFevbPZP3QwulGITnwAAFfVt+MxAHXQYlIK4sAAQ4LlqEWsdRQ1O520lcc72ezqKs3zvNfNioKY6f27I1YgDShAgRhkItN4uRq7v8YvoUnyIPgUTGUAAAAASUVORK5CYII=" />
+                </g>
+            </g>
+            <g id="skill-focus-2" transform="translate(.5 -10.41)">
+                <rect id="rect862-7" width="282.64" height="40.91" x="2.48" y="50.7"
+                    class="focus-background" />
+                <g id="focus-2-pips" transform="translate(-24 -83.63)">
+                    <g id="f2-pip4" style="fill:#ffff00;stroke:#000000;stroke-opacity:1">
+                        <rect id="rect724" width="24.72" height="24.72" x="85.47" y="151.71"
+                            class="pip" transform="rotate(-45 97.83 164.07)"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                        <path id="path726"
+                            d="M97.83 147.3l16.77 16.77-16.77 16.78-16.77-16.78 16.77-16.77m0-1.41l-18.19 18.18 18.19 18.19 18.19-18.19z"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                    </g>
+                    <rect id="f2-pip4-checked" width="18.55" height="18.55" x="88.55" y="154.8"
+                        class="pip-check" transform="rotate(-135 97.83 164.07)" />
+                    <g id="f2-pip3" style="fill:#ffff00;stroke:#000000;stroke-opacity:1">
+                        <rect id="rect730" width="24.72" height="24.72" x="65.5" y="132.79"
+                            class="pip" transform="rotate(-45 77.86 145.15)"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                        <path id="path732"
+                            d="M77.86 128.38l16.78 16.77-16.78 16.77-16.77-16.77 16.77-16.77m0-1.42l-18.18 18.2 18.18 18.18 18.2-18.19z"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                    </g>
+                    <rect id="f2-pip3-checked" width="18.55" height="18.55" x="68.59" y="135.88"
+                        class="pip-check" transform="rotate(-135 77.86 145.15)" />
+                    <g id="f2-pip2" style="fill:#ffff00;stroke:#000000;stroke-opacity:1">
+                        <rect id="rect736" width="24.72" height="24.72" x="45.62" y="152.06"
+                            class="pip" transform="rotate(-45 57.98 164.42)"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                        <path id="path738"
+                            d="M57.98 147.65l16.78 16.77-16.78 16.78-16.77-16.78 16.77-16.77m0-1.41L39.8 164.42l18.18 18.2 18.2-18.2z"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                    </g>
+                    <rect id="f2-pip2-checked" width="18.55" height="18.55" x="48.71" y="155.15"
+                        class="pip-check" transform="rotate(-135 57.98 164.42)" />
+                    <g id="f2-pip1" style="fill:#ffff00;stroke:#000000;stroke-opacity:1">
+                        <rect id="rect742" width="24.72" height="24.72" x="25.68" y="132.79"
+                            class="pip" transform="rotate(-45 38.04 145.15)"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                        <path id="path744"
+                            d="M38.04 128.38l16.77 16.77-16.77 16.77-16.78-16.77 16.78-16.77m0-1.42l-18.19 18.2 18.19 18.18 18.18-18.19z"
+                            style="fill:#ffff00;stroke:#000000;stroke-opacity:1" />
+                    </g>
+                    <rect id="f2-pip1-checked" width="18.55" height="18.55" x="28.76" y="135.88"
+                        class="pip-check" transform="rotate(-135 38.04 145.15)" />
+                </g>
+                <g id="g722" transform="translate(0 54.38)">
+                    <text id="Escape" x="96" y="16.76" class="skill-focus-name focus-name">
+                        <tspan id="tspan715" x="96" y="16.76" style="font-size:24px">Escape</tspan>
+                    </text>
+                    <text id="text720" x="96.19" y="34" class="skill-focus-notation dice-text">
+                        <tspan id="tspan718" x="96.19" y="34" style="font-size:16px">3d10&gt;9</tspan>
+                    </text>
+                </g>
+                <g id="focus-2-dice">
+                    <path
+                        style="fill:#4b5957;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.577399"
+                        id="path1019"
+                        d="M288.27 96.17h-.2L256.7 81.93c-.2 0-.2-.2-.2-.2l-3.46-6.16c-.19-.19-.19-.38 0-.57l16.75-30.6c0-.2.2-.2.38-.2h.2l31.37 13.67s0 .19.2.19l4.03 6.16c.2.2.2.38 0 .58l-17.32 31.18c-.2.19-.2.19-.38.19z" />
+                    <path
+                        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.577399"
+                        id="path1021"
+                        d="M270.17 44.97l31.18 13.67 3.85 5.96-17.13 30.8-30.98-14.24-3.28-5.97 16.36-30.22m0-1.54c-.57 0-.96.2-1.15.58l-16.75 30.6c-.19.39-.19.96 0 1.35l3.47 6.16.58.58 31.37 14.24h.58c.38 0 .77-.2.96-.58l17.51-31.18c.2-.38.2-.96-.19-1.35l-4.04-6.16c-.2-.19-.39-.38-.58-.38l-31.37-13.86h-.39z" />
+                    <path
+                        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.577399"
+                        id="path1023"
+                        d="M250.73 75.96l3.66 6.74c0 .19.2.38.58.57l33.49 15.79c.58.38 1.35.19 1.73-.39l19.05-33.49c.2-.38.2-.96 0-1.35l-4.42-6.73c0-.2-.2-.39-.39-.39l-33.68-15.2c-.58-.39-1.35-.2-1.54.38L250.73 74.8c-.38.39-.38.77 0 1.16m36-3.08l1.54 23.29-31.38-14.82 10.01-11.93 19.83 3.46m19.82-8.28l-17.13 30.03-1.35-22.14 12.51-10.77 5.97 2.88m-3.66-5.77l2.31 3.66-4.42-2.12-16.36-9.82 18.47 8.28m-32.33-14.24l.2-.2 3.84 1.54 24.64 15.2-11.94 10.4-20.01-3.27 3.27-23.67m-1.73 3.27l-2.9 20.6-9.8 11.93-2.9-5 15.6-27.53z" />
+                    <image id="image1025" width="38" height="30" x="32" y="19.67"
+                        clip-path="url(#clipEmfPath1)" preserveAspectRatio="none"
+                        transform="translate(250.35 41.12) scale(.5774)"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAeCAIAAADPdvs5AAAE3ElEQVRIia2XbW/bNhDH/3cUZSmyZatJnAVIka3rA1q0L9rv/wG2NxuGbcCwAn1APaRO7ChRLFkSyeNeyEldr2vdbIeDIJG8+/HIO9ImAE9ePP/u0UP8rzJ59fr3n362xnSfvThqlnX3rgB8/+TxTpLcwm+dz2xdee+VDje60iw7vn9fxF3M5wCctYEO0mxkrVUAHj57qsNNm22EmOvpW3OV1/PTtiqdaT2IWBEzAKXU/uHh7sG4yC+auhaRerlMBgMF4MmL57fgAeAgYIZvSiZ4Z2xdNpd5NT9bFoWpW2ctK9VP0+MH93UY5rO5iLRNo9LR6PjB/dshAaio75uCxRKBACKAIM6aZbW8LIqzeZXnzaJMR8N7jx9XZVkWV6qfDo7ufbfuRZyzbauCYFtqPHDLC4JnAgD6uNdZsU1TXy2ifvLto0e7B2O+Mx5vuFjMZudvXnnntkSSCvVwTAwoKIUg1OnRvcHBYdRPmNHNg5VKsgzA7njMG4kjzlXnc/KunE62RAJQyR7HCTHAIG9cVfRGe0EYMoEZADpeJ5xmo3Xji5MTeMcEWxa2LLan6uwYSnVUWczMVW4WuWIwgQn9vd0PyPWKtG1bX+Td1JhhZhNv222ZpPToCAwigGHmEyYQgQjxMA3W1pLjNeT5uwldjyMCwZn8K5aXeynHKRigVXCd7qytKgC+eWsWZVuVNzwmgODb0pWz7ak6PaJAd6XS+VGhjgbpp5GX0ykBnYZJSlh92PLU23pbJqlgeBdryGiYbQxZIcs8b8qyqyliFR8c6ey6eLwzi3fbB0pKY61ATVV+GllMp9cWUKF2y1KPDkhHq0Zbu+UU24lbzm+ABNhlWZ1/tDUBgKvZzLarWwYetq6r92+1Vhzq6za4+pTDIakIXxK3zFc2qwfKs1O909dR9CHKJMv2vj1OsoxZrRge3jnfrm2hh63ewn/hSHJ1DnHrPAAiLp982Br18NlTYta9XjxMB/v7vcGQmAEhscyrLFg94bwrvLdEIP70ZecWJ94aCCAIskOx1horAttaD0T9PrqFXRcdRTo6BCC2laoQU/qmAMETSCC2IZlJew4OWO2Q6nPQB12vja2lLeHhPeDRXsxsY7xHp8X0dCcd6jj61+uCg5DTPWAP4twyt+WJBwjwEJAnEXEt/IWFJ+6xzjjou2rWxQcP8XDWiEenHghCXZeLzyHX4Eole9KWYgoPkAfIe7rZKXhb2+ZkBRN4AQTSqQcHOhkNd0aZjlfps+2lqIdH7fyld8YzQAiSQ29KaQsPwK8iu+E5gYcKR1l/kAXRZpJviwSrIL1r5q/gAYItTj50+U2eEzjnTHHplWatWal1T+rhs6dbQikIvRNpKvLXmGsYVARPcOJukAJrZVksLk/PvJNoMPj6KLvR6VjqhTereuU4VXHKvYSCcPnuD+fgBCLgKGkXZQcGcLOLt0ESK33nrsmnKknVTkrXR4fY1rSmyxcnkDVeEOrk48vr65AAOIx6B8cbjbYqrVulqAich8iq687R3Y3Bajr56+z9+0VRGGOUUrf7Da16cZhmqhdTEDon1tiuvZckw28O1kdOXr2mf9rvjvfjJImTZPdgvJMk8df/dxDnzLKuy0V33Ny0//nrby9/+512x/vz07PPu/jvkwDwyw8/Tl6/AfA3rd6OYiaFwZcAAAAASUVORK5CYII=" />
+                    <image id="image1027" width="17" height="21" x="40" y="16.33"
+                        clip-path="url(#clipEmfPath2)" preserveAspectRatio="none"
+                        transform="translate(250.35 41.12) scale(.5774)"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVCAIAAAAvnpK7AAACMElEQVQ4jY2STW8TMRCG3xnb+9FNNlmapJSkFBDiUODOlTM/APGP4ciVcEGN2qZNv0KcbHZtD4eEJkUIOrJkeR6/88qeoQ+fPuJhsbD26+cvl+cX6tXbN8uZBcBK/Vtjomjw4nleFAygtLPx8PvPyeQhbo8HfV45BO9vTk7Pvg19Xf1XxgCiJAVABHKlPRs9SBM3MpMkRiHS4Nq62/Efl8rrSXk9qed2ddSrbffpwfTH0GhoAz8/V1mLdHKnMTsNOxqKQAScZLzOJkljb19rkAY03Px420fFSbrb0wpaAZXlOxC3O5xmYJACUIfqYltm2ns6TVYyvgceDaAUGMQaMhdZbtOoewijWIHF+7ssqUg39kG0XmEKhG1qWj1iqCedPGq2N/+oU3ELkYoIEhxCTSrb0GhHnFWDbq6TlKN4A0zTl5cQL8GLmxPHpDZUJTkzo56MxG21n5RO+1I7cbU4V09HCH6bqmeDrmIRX6qs2MrH4kIo5wiAk7CcOzu14xOdNllrZgIIUllv782oSnfFK6kgFeqZXdxOq8pfjY4BaAJAAMHZc44bq/YvbybV5SkIEASB83ABzgG+XkynbIreurL4erZuf9Qslk6VFRYVygrLGlUNNqb/+ijNczbtPTK/R8uVfjFevbPZP3QwulGITnwAAFfVt+MxAHXQYlIK4sAAQ4LlqEWsdRQ1O520lcc72ezqKs3zvNfNioKY6f27I1YgDShAgRhkItN4uRq7v8YvoUnyIPgUTGUAAAAASUVORK5CYII=" />
+                </g>
+            </g>
+            <g id="g679" transform="translate(0 -34)">
+                <text id="skill-name" style="font-size:42.6667px" class="skill-name">
+                    <tspan id="tspan676" x="0" y="0" style="font-size:42.6667px">Agility</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

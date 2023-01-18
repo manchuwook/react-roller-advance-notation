@@ -1,0 +1,40 @@
+.focus-background {
+    fill: #60b3c2;
+    paint-order: stroke markers fill;
+    stroke: #5f5f0c;
+    stroke-opacity: 1;
+    stroke-width: 5;
+}
+
+.focus-name {
+    font-size: 24px;
+    font-family: "nocturne-serif";
+    color: #806600;
+}
+
+.dice-text {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.skill-name {
+    font-size: 24px;
+    font-family: "nocturne-serif";
+}
+
+.pip-checked {
+    opacity: 1;
+}
+
+.pip-unchecked {
+    opacity: 0;
+}

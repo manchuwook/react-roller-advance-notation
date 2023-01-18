@@ -1,0 +1,602 @@
+{
+    "Agility": {
+        "Level": "Untrained",
+        "BaseAttribute": "Coordination",
+        "Roll": {
+            "Base": 4,
+            "Threshold": 6,
+            "Notation": "4d10>6",
+            "Text": "4d (6+)"
+        },
+        "Acrobatics": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Escape": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "Athletics": {
+        "Level": "Untrained",
+        "BaseAttribute": "Strength",
+        "Roll": {
+            "Base": 3,
+            "Threshold": 7,
+            "Notation": "3d10>7",
+            "Text": "3d (7+)"
+        },
+        "Grapple": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 9,
+                "Notation": "3d10>7",
+                "Text": "3d (7+)"
+            },
+            "focusType": "string"
+        },
+        "Prowess": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 9,
+                "Notation": "3d10>7",
+                "Text": "3d (7+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "AxiomaticMagic": {
+        "Level": "Adept",
+        "BaseAttribute": "Intellect",
+        "Roll": {
+            "Base": 3,
+            "Threshold": 6,
+            "Notation": "11d10>6",
+            "Text": "11d (6+)"
+        },
+        "Formulae": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 12,
+                "Threshold": 6,
+                "Notation": "11d10>6",
+                "Text": "11d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Ritual": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 12,
+                "Threshold": 6,
+                "Notation": "11d10>6",
+                "Text": "11d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "BloodMagic": {
+        "Level": "Untrained",
+        "BaseAttribute": "Endurance",
+        "Roll": {
+            "Base": 3,
+            "Threshold": 7,
+            "Notation": "3d10>7",
+            "Text": "3d (6+)"
+        },
+        "Inherited": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 7,
+                "Notation": "3d10>7",
+                "Text": "3d (7+)"
+            },
+            "focusType": "string"
+        },
+        "Morphic": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 6,
+                "Notation": "3d10>7",
+                "Text": "3d (7+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "BondsMagic": {
+        "Level": "Adept",
+        "BaseAttribute": "Charisma",
+        "Roll": {
+            "Base": 3,
+            "Threshold": 9,
+            "Notation": "11d10>6",
+            "Text": "11d (6+)"
+        },
+        "Ego": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 9,
+                "Notation": "11d10>6",
+                "Text": "11d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Spirit": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 9,
+                "Notation": "11d10>6",
+                "Text": "11d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "CloseWeapons": {
+        "Level": "Untrained",
+        "BaseAttribute": "Quickness",
+        "Roll": {
+            "Base": 4,
+            "Threshold": 6,
+            "Notation": "4d10>6",
+            "Text": "4d (6+)"
+        },
+        "Slice": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Stab": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "Command": {
+        "Level": "Untrained",
+        "BaseAttribute": "Charisma",
+        "Roll": {
+            "Base": 5,
+            "Threshold": 6,
+            "Notation": "5d10>6",
+            "Text": "5d (6+)"
+        },
+        "Inspire": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 5,
+                "Threshold": 6,
+                "Notation": "5d10>6",
+                "Text": "5d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Intimidate": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 5,
+                "Threshold": 6,
+                "Notation": "5d10>6",
+                "Text": "5d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "Cunning": {
+        "Level": "Skilled",
+        "BaseAttribute": "Intellect",
+        "Roll": {
+            "Base": 7,
+            "Threshold": 6,
+            "Notation": "7d10>6",
+            "Text": "7d (6+)"
+        },
+        "Discern": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 9,
+                "Threshold": 6,
+                "Notation": "9d10>6",
+                "Text": "9d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Plan": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 9,
+                "Threshold": 6,
+                "Notation": "9d10>6",
+                "Text": "9d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "Dexterity": {
+        "Level": "Untrained",
+        "BaseAttribute": "Coordination",
+        "Roll": {
+            "Base": 4,
+            "Threshold": 6,
+            "Notation": "4d10>6",
+            "Text": "4d (6+)"
+        },
+        "Finesse": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Pilfer": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "FlexibleWeapons": {
+        "Level": "Untrained",
+        "BaseAttribute": "Coordination",
+        "Roll": {
+            "Base": 4,
+            "Threshold": 6,
+            "Notation": "4d10>6",
+            "Text": "4d (6+)"
+        },
+        "Flail": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Whip": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "FocusMagic": {
+        "Level": "Skilled",
+        "BaseAttribute": "Willpower",
+        "Roll": {
+            "Base": 6,
+            "Threshold": 6,
+            "Notation": "6d10>6",
+            "Text": "6d (6+)"
+        },
+        "Banish": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 6,
+                "Threshold": 6,
+                "Notation": "6d10>6",
+                "Text": "6d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Manipulate": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 7,
+                "Threshold": 6,
+                "Notation": "7d10>6",
+                "Text": "7d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "HaftedWeapons": {
+        "Level": "Untrained",
+        "BaseAttribute": "Strength",
+        "Roll": {
+            "Base": 3,
+            "Threshold": 7,
+            "Notation": "3d10>7",
+            "Text": "3d (7+)"
+        },
+        "Impale": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 7,
+                "Notation": "3d10>7",
+                "Text": "3d (7+)"
+            },
+            "focusType": "string"
+        },
+        "Strike": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 7,
+                "Notation": "3d10>7",
+                "Text": "3d (7+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "LongArms": {
+        "Level": "Untrained",
+        "BaseAttribute": "Sensitivity",
+        "Roll": {
+            "Base": 3,
+            "Threshold": 6,
+            "Notation": "3d10>6",
+            "Text": "3d (6+)"
+        },
+        "Crossbows": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 6,
+                "Notation": "3d10>6",
+                "Text": "3d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Rifles": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 6,
+                "Notation": "3d10>6",
+                "Text": "3d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "MissileWeapons": {
+        "Level": "Untrained",
+        "BaseAttribute": "Coordination",
+        "Roll": {
+            "Base": 7,
+            "Threshold": 6,
+            "Notation": "7d10>6",
+            "Text": "7d (6+)"
+        },
+        "Archery": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 10,
+                "Threshold": 6,
+                "Notation": "10d10>6",
+                "Text": "10d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Throwing": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 7,
+                "Threshold": 6,
+                "Notation": "7d10>6",
+                "Text": "7d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "Mobility": {
+        "Level": "Untrained",
+        "BaseAttribute": "Quickness",
+        "Roll": {
+            "Base": 4,
+            "Threshold": 6,
+            "Notation": "4d10>6",
+            "Text": "4d (6+)"
+        },
+        "Chase": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Skirmish": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "Observation": {
+        "Level": "Untrained",
+        "BaseAttribute": "Sensitivity",
+        "Roll": {
+            "Base": 3,
+            "Threshold": 7,
+            "Notation": "3d10>7",
+            "Text": "3d (7+)"
+        },
+        "Search": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 7,
+                "Notation": "3d10>7",
+                "Text": "3d (7+)"
+            },
+            "focusType": "string"
+        },
+        "Survey": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 3,
+                "Threshold": 7,
+                "Notation": "3d10>7",
+                "Text": "3d (7+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "Persuade": {
+        "Level": "Untrained",
+        "BaseAttribute": "Charisma",
+        "Roll": {
+            "Base": 5,
+            "Threshold": 6,
+            "Notation": "5d10>6",
+            "Text": "5d (6+)"
+        },
+        "Con": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 5,
+                "Threshold": 6,
+                "Notation": "5d10>6",
+                "Text": "5d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Handle": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 5,
+                "Threshold": 6,
+                "Notation": "5d10>6",
+                "Text": "5d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "Stealth": {
+        "Level": "Untrained",
+        "BaseAttribute": "Coordination",
+        "Roll": {
+            "Base": 4,
+            "Threshold": 6,
+            "Notation": "4d10>6",
+            "Text": "4d (6+)"
+        },
+        "Concealment": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Infiltration": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "Swords": {
+        "Level": "Untrained",
+        "BaseAttribute": "Coordination",
+        "Roll": {
+            "Base": 4,
+            "Threshold": 6,
+            "Notation": "4d10>6",
+            "Text": "4d (6+)"
+        },
+        "Cut": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Thrust": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        }
+    },
+    "UnarmedCombat": {
+        "Level": "Untrained",
+        "BaseAttribute": "Coordination",
+        "Roll": {
+            "Base": 4,
+            "Threshold": 6,
+            "Notation": "4d10>6",
+            "Text": "4d (6+)"
+        },
+        "Kick": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        },
+        "Punch": {
+            "Focus": 0,
+            "Roll": {
+                "Base": 4,
+                "Threshold": 6,
+                "Notation": "4d10>6",
+                "Text": "4d (6+)"
+            },
+            "focusType": "string"
+        }
+    }
+}

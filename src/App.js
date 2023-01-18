@@ -3,6 +3,10 @@ import DisplayResults from "@3d-dice/dice-ui/src/displayResults"; // fui index e
 import DiceParser from "@3d-dice/dice-parser-interface";
 import { Dice } from "./components/diceBox";
 import AdvRollBtn from "./components/AdvRollBtn";
+import SkillComponent from './components/skill.component';
+
+import * as skills from './samples/skills.json' // assert {type: 'json'}
+import { useEffect } from "react";
 
 // create Dice Roll Parser to handle complex notations
 const DRP = new DiceParser();
@@ -22,7 +26,29 @@ Dice.init().then(() => {
   });
 });
 
+let items = Object.keys(skills.default).map(skillName => {
+  const focuses = skills.default[skillName];
+  const {
+    Level,
+    BaseAttribute,
+    Roll
+  } = focuses;
+  const transcap = BaseAttribute.toUpperCase().substring(0, 3);
+  delete focuses.Level;
+  delete focuses.BaseAttribute;
+  delete focuses.Roll;
+  const op = Object.keys(focuses).map((focus, idx) => {
+    const { Text } = focuses[focus].Roll;
+    const output = { Focus: focus, RollFormula: Roll.Notation, Notation: Text }
+    return output;
+  });
+  return { SkillName: `${skillName} (${transcap})`, Level, BaseAttribute: transcap, Foci: op };
+});
+
 export default function App() {
+  useEffect(() => {
+  });
+
   // This method is triggered whenever dice are finished rolling
   Dice.onRollComplete = (results) => {
     console.log(results);
@@ -48,101 +74,42 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Dice Rolling Demo</h1>
-      <p>
-        supports most notations seen at{" "}
-        <a
-          href="https://wiki.roll20.net/Dice_Reference#Roll20_Dice_Specification"
-          target="_blank"
-        >
-          Roll20_Dice_Specification
-        </a>
-      </p>
-      <div className="buttonList">
-        <span className="header">Roll Action</span>
-        <span className="header">Notation</span>
-        <span className="header">Explaination</span>
-        <AdvRollBtn
-          label="d20 Advantage"
-          notation="2d20kh1"
-          onRoll={rollDice}
-        />
-        <span className="notation">'2d20kh1'</span>
-        <span className="exp">Roll '2d20' keeping the highest of the two</span>
+      <h1>SaGE Skill Rolls</h1>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="skill-list col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div className="row d-flex">
+              {items.map((item, idx) => {
+                return <div class="col-md-5" key={idx}>
+                  <SkillComponent
+                    skillName={item.SkillName}
+                    diceId1={`${item.Foci[0].Focus.toLowerCase()}-dice`}
+                    focus1Name={item.Foci[0].Focus}
+                    roll1Notation={item.Foci[0].Notation}
+                    rollFormula1={item.Foci[0].RollFormula}
+                    diceId2={`${item.Foci[1].Focus.toLowerCase()}-dice`}
+                    focus2Name={item.Foci[1].Focus}
+                    rollN2otation={item.Foci[1].Notation}
+                    rollFormula2={item.Foci[0].RollFormula}
+                    dice={(ev) => {
+                      const qs = document.querySelector(`#${ev.currentTarget.id}`)
+                      const dr = qs.dataset['diceRoll']
+                      console.log(`clicked: ${(dr)}`)
+                      rollDice(dr)
+                    }}
+                  ></SkillComponent>
+                </div>
+              })}
+            </div>
+          </div>
+          <div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div className="row d-flex">
+              {/* <div id="dice-box"></div>
 
-        <AdvRollBtn
-          label="Attribute Roll"
-          notation="4d6dl1"
-          onRoll={rollDice}
-        />
-        <span className="notation">'4d6dl1'</span>
-        <span className="exp">
-          Roll '4d6' and drop the lowest result of the group. A common roll for
-          attributes.
-        </span>
-
-        <AdvRollBtn label="Exploding Roll" notation="8d6!" onRoll={rollDice} />
-        <span className="notation">'8d6!'</span>
-        <span className="exp">
-          Roll '8d6' and add a additional 'd6' roll for every die that results
-          in 6
-        </span>
-
-        <AdvRollBtn
-          label="Great Weapon Fighting"
-          notation="2d10ro<2"
-          onRoll={rollDice}
-        />
-        <span className="notation">'2d10ro&lt;2'</span>
-        <span className="exp">
-          Roll '2d10' and reroll only once results that are a 2 or 1.
-        </span>
-
-        <AdvRollBtn label="Target > 7" notation="10d10>7" onRoll={rollDice} />
-        <span className="notation">'10d10&gt;7'</span>
-        <span className="exp">
-          Roll '10d10' and count up the number of rolls that are 7 or greater
-        </span>
-
-        <AdvRollBtn
-          label="Colossus Slayer + Hunter's Mark"
-          notation="1d8+1d8+1d6"
-          onRoll={rollDice}
-        />
-        <span className="notation">'1d8+1d8+1d6'</span>
-        <span className="exp">
-          Roll '1d8' + '1d8' + '1d6' and add the results together
-        </span>
-
-        <AdvRollBtn
-          label="Spot Check 60% - Normal"
-          notation="1d100<60"
-          onRoll={rollDice}
-        />
-        <span className="notation">'1d100&lt;60'</span>
-        <span className="exp">
-          Roll a '1d100' and note success if the result is less than 60
-        </span>
-
-        <AdvRollBtn
-          label="Spot Check 60% - Hard"
-          notation="1d100<(60/2)"
-          onRoll={rollDice}
-        />
-        <span className="notation">'1d100&lt;(60/2)'</span>
-        <span className="exp">
-          Roll a '1d100' and note success if the result is less than 30
-        </span>
-
-        <AdvRollBtn
-          label="Spot Check 60% - Extreme"
-          notation="1d100<(60/5)"
-          onRoll={rollDice}
-        />
-        <span className="notation">'1d100&lt;(60/5)'</span>
-        <span className="exp">
-          Roll a '1d100' and note success if the result is less than 12
-        </span>
+            </div> */}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
