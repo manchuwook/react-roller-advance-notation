@@ -1,12 +1,20 @@
+import React from 'react';
 import "./styles.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import DisplayResults from "@3d-dice/dice-ui/src/displayResults"; // fui index exports are messed up -> going to src
 import DiceParser from "@3d-dice/dice-parser-interface";
 import { Dice } from "./components/diceBox";
 import AdvRollBtn from "./components/AdvRollBtn";
-import SkillComponent from './components/skill.component';
+import SkillComponent from './components/skill.component'
+import EditSkillsComponent from './components/edit-skills.component'
+import CharacterDropdownComponent from './components/character-dropdown.component'
+import Button from 'react-bootstrap/Button';
+import { Modal, ModalHeader, ModalBody } from 'react-bootstrap';
 
 import * as skills from './samples/skills.json' // assert {type: 'json'}
 import { useEffect } from "react";
+import { ModuleKind } from 'typescript';
 
 // create Dice Roll Parser to handle complex notations
 const DRP = new DiceParser();
@@ -48,6 +56,16 @@ let items = Object.keys(skills.default).map(skillName => {
 export default function App() {
   useEffect(() => {
   });
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
 
   // This method is triggered whenever dice are finished rolling
   Dice.onRollComplete = (results) => {
@@ -75,6 +93,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>SaGE Skill Rolls</h1>
+      <CharacterDropdownComponent></CharacterDropdownComponent>
       <div className="container-fluid">
         <div className="row">
           <div className="skill-list col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -109,6 +128,20 @@ export default function App() {
             </div> */}
             </div>
           </div>
+        </div>
+        <div className="row">
+          <Button onClick={() => setOpen(true)}>Edit Skill</Button>
+          <Modal
+            show={open}
+            onHide={() => setOpen(false)}
+          >
+            <Modal.Header closeButton>
+              Edit the skills of the character
+            </Modal.Header>
+            <Modal.Body style={{ overflowY: 'scroll', height: '80vh' }}>
+              <EditSkillsComponent model={skills.default}></EditSkillsComponent>
+            </Modal.Body>
+          </Modal>
         </div>
       </div>
     </div>
